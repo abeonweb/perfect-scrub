@@ -15,6 +15,36 @@ const Blog = () => {
         {/* Start of Blog*/}
         <section className="pt-36 pb-40 px-4 lg:pt-40 lg:pb-60 flex justify-center">
           <div className="mx-8 w-full md:mx-auto lg:mx-auto lg:w-3/4">
+
+            {/* 6th Blog Post (Main)*/}
+            <Link href="/blog/find-the-best-commercial-cleaning-near-me-in-2023">
+              <div className="md:grid md:grid-cols-5 mb-16 md:mb-12">
+                <div className="min-h-0 col-start-1 col-end-4">
+                  <Image width={500} height={500} className="h-full w-full object-cover rounded-md"
+                    src="https://images.surferseo.art/fb47003a-4b8f-4b37-a5f8-2689217819e1.jpeg"
+                    alt="peopla around a laptop" />
+                </div>
+                <div className="flex min-h-0 flex-col col-start-4 col-end-6 md:ml-6">
+                  <div className="mt-2 md:mt-0"><span className="uppercase font-semibold text-gray-700 text-xs">Advice</span><span
+                    className="text-gray-400 mx-2 font-medium text-sm">Oct 09, 2023</span></div>
+                  <h2 className="font-workSans text-2xl font-semibold my-2 text-gray-700">
+                    Find the Best Commercial Cleaning Near Me in 2023</h2>
+                  <p className="text-sm mb-6 flex-grow text-gray-600">Are you tired of dealing with sub-par cleaning services for your Toronto and GTA-based business? It’s time to discover top-notch “commercial cleaning” services that meet your unique requirements and help you maintain a clean, healthy, and productive workspace...</p>
+                  <div className="flex items-center">
+                    {/* <div className="h-12 w-12 rounded-full overflow-hidden flex-shrink-0">
+                <Image width={500} height={500} className="w-full h-full object-cover object-bottom" src="/writer.png"
+                alt="">
+              </div> */}
+                    <div className="ml-2 text-xs">
+                      <span className="block font-semibold text-gray-700">Buki Folashakin</span>
+                      <span className="block font-medium text-gray-500">Blogger</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Link>
+            {/* 6th Blog Post (Main) end*/}
+
             {/* 5th Blog Post (Main)*/}
             <Link href="/blog/find-the-best-commercial-cleaning-near-me-in-2023">
               <div className="md:grid md:grid-cols-5 mb-16 md:mb-12">
@@ -42,12 +72,15 @@ const Blog = () => {
               </div>
             </Link>
             {/* 5th Blog Post (Main) end*/}
+
+
             {/* 4th Blog Post*/}
             <Link href="/blog/indicators-to-assess-the-performance-of-your-cleaning-contract">
               <div className="md:grid md:grid-cols-5 mb-16 md:mb-12">
                 <div className="min-h-0 col-start-1 col-end-4">
-                  <Image width={500} height={500} className="h-full w-full object-cover rounded-md" src="/blog/a-group-planning-together.jpg"
-                    alt="peopla around a laptop" />
+                  <Image width={500} height={500} className="h-full w-full object-cover rounded-md"
+                    src="/blog/a-group-planning-together.jpg"
+                    alt="people around a laptop" />
                 </div>
                 <div className="flex min-h-0 flex-col col-start-4 col-end-6 md:ml-6">
                   <div className="mt-2 md:mt-0"><span className="uppercase font-semibold text-gray-700 text-xs">Advice</span><span
